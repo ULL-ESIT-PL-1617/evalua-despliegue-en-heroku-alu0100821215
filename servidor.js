@@ -11,13 +11,9 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname));
 
 app.get('/', function (req, res) {
-    res.render('index', { title: 'Index' });
+    response.render('index');
 });
 
-var server = app.listen(8080, function(){
-        var host = server.address().address;
-        var port = server.address().port;
-        
-        console.log('Listening to http://%s:%s', host, port);
-    
-})
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
