@@ -17,17 +17,8 @@
     "cool-ascii-faces": "1.3.4",
     "ejs": "2.4.1",
     "express": "4.13.3",
-    "gh-pages": "^0.12.0"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-victor-jesus-pamela.git",
-    "wiki": ""
+    "gh-pages": "^0.12.0",
+    "gulp": "^3.9.1"
   },
   "keywords": [
     "gitbook",
@@ -36,6 +27,11 @@
     "PL",
     "primeros-pasos-NodeJS"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-victor-jesus-pamela.git",
+    "wiki": ""
+  },
   "author": "Víctor Jesús Pamela",
   "license": "MIT",
   "bugs": {
