@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 
-app.ser('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 5000));
 
 //view engine setup
 app.set('views', __dirname);
