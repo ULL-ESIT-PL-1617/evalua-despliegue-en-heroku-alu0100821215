@@ -3,10 +3,10 @@ var app = express();
 var path = require("path");
 
 //view engine setup
-app.set('views', path.join(__dirname) + '/gh-pages');
+app.set('views', path.join(__dirname));
 app.set('view engine', 'ejs');
 
-app.use(express.static(__dirname + '/gh-pages'));
+app.use(express.static(__dirname));
 
 app.get('/', function (req, res) {
     res.render('index', { title: 'Index' });
